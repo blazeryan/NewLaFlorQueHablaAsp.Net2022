@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LaFlorQueHablaWebApplication {
-    
-    
-    public partial class EnglishHomePage {
-        
+namespace LaFlorQueHablaWebApplication
+{
+
+
+    public partial class EnglishHomePage
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// HomePagePhraseTextBox control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox HomePagePhraseTextBox;
-        
+
         /// <summary>
         /// InstagramImageButton control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton InstagramImageButton;
-        
+
         /// <summary>
         /// FollowMeInstagramLabel control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label FollowMeInstagramLabel;
-        
+
         /// <summary>
         /// FacebookImageButton control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton FacebookImageButton;
-        
+
         /// <summary>
         /// FollowMeFacebookLabel control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label FollowMeFacebookLabel;
-        
+
         /// <summary>
         /// TwitterImageButton control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton TwitterImageButton;
-        
+
         /// <summary>
         /// FollowMeTwitterLabel control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label FollowMeTwitterLabel;
-        
+
         /// <summary>
         /// AboutMeImageButton control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton AboutMeImageButton;
-        
+
         /// <summary>
         /// AboutMeLabel control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label AboutMeLabel;
-        
+
         /// <summary>
         /// PhrasesImageButton control.
         /// </summary>
@@ -110,7 +112,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton PhrasesImageButton;
-        
+
         /// <summary>
         /// PhrasesLabel control.
         /// </summary>
@@ -119,7 +121,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label PhrasesLabel;
-        
+
         /// <summary>
         /// MemesImageButton control.
         /// </summary>
@@ -128,7 +130,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton MemesImageButton;
-        
+
         /// <summary>
         /// MemesLabel control.
         /// </summary>
@@ -137,7 +139,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label MemesLabel;
-        
+
         /// <summary>
         /// PoemsImageButton control.
         /// </summary>
@@ -146,7 +148,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton PoemsImageButton;
-        
+
         /// <summary>
         /// PoemsLabel control.
         /// </summary>
@@ -155,7 +157,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label PoemsLabel;
-        
+
         /// <summary>
         /// ShortStoryImageButton control.
         /// </summary>
@@ -164,7 +166,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ShortStoryImageButton;
-        
+
         /// <summary>
         /// ShortStoriesLabel control.
         /// </summary>
@@ -173,7 +175,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label ShortStoriesLabel;
-        
+
         /// <summary>
         /// Petal1 control.
         /// </summary>
@@ -182,7 +184,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image Petal1;
-        
+
         /// <summary>
         /// Petal2 control.
         /// </summary>
@@ -191,7 +193,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image Petal2;
-        
+
         /// <summary>
         /// Petal3 control.
         /// </summary>
@@ -200,7 +202,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image Petal3;
-        
+
         /// <summary>
         /// Petal4 control.
         /// </summary>
@@ -209,7 +211,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image Petal4;
-        
+
         /// <summary>
         /// Petal5 control.
         /// </summary>
@@ -218,7 +220,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image Petal5;
-        
+
         /// <summary>
         /// ChangePhraseImageButton control.
         /// </summary>
@@ -227,7 +229,7 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ChangePhraseImageButton;
-        
+
         /// <summary>
         /// DataList1 control.
         /// </summary>
@@ -236,7 +238,16 @@ namespace LaFlorQueHablaWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DataList DataList1;
-        
+
+        /// <summary>
+        /// EnglishPhraseDataSource2022 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource EnglishPhraseDataSource2022;
+
         /// <summary>
         /// EnglishPhraseDataSource control.
         /// </summary>

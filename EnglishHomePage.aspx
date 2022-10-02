@@ -51,17 +51,18 @@
 
    
     
-    <asp:DataList ID="DataList1" runat="server" DataSourceID="EnglishPhraseDataSource" Font-Size="30pt" Font-Bold="True" Font-Italic="False" Font-Names="Forte" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" HorizontalAlign="Center" top="70px" Visible="False">
+    <asp:DataList ID="DataList1" runat="server" DataSourceID="EnglishPhraseDataSource2022" Font-Size="30pt" Font-Bold="True" Font-Italic="False" Font-Names="Forte" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" HorizontalAlign="Center" top="70px" Visible="False">
                 <ItemTemplate>
-                    &nbsp;<asp:Label ID="phraseBodyLabel" runat="server" Text='<%# Eval("phraseBody") %>' />
+                    Phrase_Body: <asp:Label ID="Phrase_BodyLabel" runat="server" Text='<%# Eval("Phrase_Body") %>' />
                     <br />
 <br />
                 </ItemTemplate>
             </asp:DataList>
 
+              <asp:SqlDataSource ID="EnglishPhraseDataSource2022" runat="server" ConnectionString="<%$ ConnectionStrings:LaFlorQueHablaDBConnectionString10-2-2022 %>" SelectCommand="SELECT [Phrase Body] AS Phrase_Body FROM [Phrase]"></asp:SqlDataSource>
+
               <%--The SelectCommand Code displays only 1 top row of data from the Phrase database table.--%>
-            <asp:SqlDataSource ID="EnglishPhraseDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:LaFlorQueHablaLocalDatabaseConnectionString %>" SelectCommand="SELECT TOP 1 phraseBody FROM phrase
-ORDER BY NEWID()"></asp:SqlDataSource>
+            <asp:SqlDataSource ID="EnglishPhraseDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:LaFlorQueHablaDBConnectionString10-2-2022 %>" SelectCommand="SELECT [Phrase Body] AS Phrase_Body FROM [Phrase]"></asp:SqlDataSource>
 
 
 
