@@ -36,7 +36,7 @@
             <asp:ImageButton ID="PoemsImageButton" runat="server" style="z-index: 1; left: 1200px; top: 425px; position: absolute" Height="55px" ImageUrl="~/Images/Flower.png" Width="55px" OnClick="PoemsImageButton_Click" />
             <asp:Label ID="PoemsLabel" runat="server" style="z-index: 1; left: 1275px; top: 427px; position: absolute; font-size: medium;" Text="Poems"></asp:Label>
             <asp:ImageButton ID="ShortStoryImageButton" runat="server" Height="55px" style="height: 55px; z-index: 1; left: 1200px; top: 500px; position: absolute" Width="55px" ImageUrl="~/Images/Flower.png" OnClick="ShortStoryImageButton_Click" />
-            <asp:Label ID="ShortStoriesLabel" runat="server" style="z-index: 1; left: 1275px; top: 502px; position: absolute; font-size: medium;" Text="Short Stories"></asp:Label>
+            <asp:Label ID="ShortStoriesLabel" runat="server" style="z-index: 1; left: 1275px; top: 500px; position: absolute; font-size: medium;" Text="Short Stories"></asp:Label>
             <asp:Image ID="Petal1" runat="server" ImageUrl="~/Images/Petal1.png" CssClass="Petal1ImageStyle" />
             <asp:Image ID="Petal2" runat="server" ImageUrl="~/Images/Petal2.png" CssClass="Petal2ImageStyle" />
             <asp:Image ID="Petal3" runat="server" ImageUrl="~/Images/Petal3.png" CssClass="Petal3ImageStyle" />
