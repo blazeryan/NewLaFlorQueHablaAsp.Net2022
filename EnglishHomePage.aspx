@@ -34,7 +34,7 @@
             <asp:ImageButton ID="MemesImageButton" runat="server"  ImageUrl="~/Images/Flower.png" OnClick="MemeImageButton_Click" style="z-index: 1; left: 1200px; top: 350px; position: absolute; width: 55px;"  /> 
             <asp:Label ID="MemesLabel" runat="server" style="z-index: 1; left: 1275px; top: 352px; position: absolute; font-size: medium;" Text="Picture Quote"></asp:Label>
             <asp:ImageButton ID="PoemsImageButton" runat="server" style="z-index: 1; left: 1200px; top: 425px; position: absolute" Height="55px" ImageUrl="~/Images/Flower.png" Width="55px" OnClick="PoemsImageButton_Click" />
-            <asp:Label ID="PoemsLabel" runat="server" style="z-index: 1; left: 1275px; top: 427px; position: absolute; font-size: medium;" Text="Poems"></asp:Label>
+            <asp:Label ID="PoemsLabel" runat="server" style="z-index: 1; left: 1275px; top: 428px; position: absolute; font-size: medium;" Text="Poems"></asp:Label>
             <asp:ImageButton ID="ShortStoryImageButton" runat="server" Height="55px" style="height: 55px; z-index: 1; left: 1200px; top: 500px; position: absolute" Width="55px" ImageUrl="~/Images/Flower.png" OnClick="ShortStoryImageButton_Click" />
             <asp:Label ID="ShortStoriesLabel" runat="server" style="z-index: 1; left: 1275px; top: 500px; position: absolute; font-size: medium;" Text="Short Stories"></asp:Label>
             <asp:Image ID="Petal1" runat="server" ImageUrl="~/Images/Petal1.png" CssClass="Petal1ImageStyle" />
