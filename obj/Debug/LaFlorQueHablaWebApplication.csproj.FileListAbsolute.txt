@@ -1,0 +1,72 @@
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\LaFlorQueHablaWebApplication.dll.config
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\LaFlorQueHablaWebApplication.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\LaFlorQueHablaWebApplication.pdb
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Antlr3.Runtime.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\EntityFramework.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.Security.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Newtonsoft.Json.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Owin.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\System.Web.Optimization.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\System.Web.Providers.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\WebGrease.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\System.Web.Optimization.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Antlr3.Runtime.pdb
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Newtonsoft.Json.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\EntityFramework.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.Security.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\obj\Debug\LaFlorQueHablaWebApplication.dll
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\obj\Debug\LaFlorQueHablaWebApplication.pdb
+C:\Users\Blazeryan\Desktop\Workspace\LaFlorQueHablaWebApplication\LaFlorQueHablaWebApplication\obj\Debug\LaFlorQueHablaWebApplication.csprojResolveAssemblyReference.cache
+C:\Users\Blazeryan\Desktop\New Work Space\LaFlorQueHablaWebApplication\bin\LaFlorQueHablaWebApplication.dll.config
+C:\Users\Blazeryan\Desktop\New Work Space\LaFlorQueHablaWebApplication\bin\LaFlorQueHablaWebApplication.dll
+C:\Users\Blazeryan\Desktop\New Work Space\LaFlorQueHablaWebApplication\bin\LaFlorQueHablaWebApplication.pdb
+C:\Users\Blazeryan\Desktop\New Work Space\LaFlorQueHablaWebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Blazeryan\Desktop\New Work Space\LaFlorQueHablaWebApplication\bin\Newtonsoft.Json.dll
+C:\Users\Blazeryan\Desktop\New Work Space\LaFlorQueHablaWebApplication\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Blazeryan\Desktop\New Work Space\LaFlorQueHablaWebApplication\obj\Debug\LaFlorQueHablaWebApplication.dll
+C:\Users\Blazeryan\Desktop\New Work Space\LaFlorQueHablaWebApplication\obj\Debug\LaFlorQueHablaWebApplication.pdb
+C:\Users\Blazeryan\Desktop\New Work Space\LaFlorQueHablaWebApplication\obj\Debug\LaFlorQueHablaWebApplication.csprojAssemblyReference.cache
+C:\Users\Blazeryan\Desktop\New Work Space\LaFlorQueHablaWebApplication\obj\Debug\LaFlorQueHablaWebApplication.csproj.CoreCompileInputs.cache
+C:\Users\Blazeryan\Desktop\New Work Space\LaFlorQueHablaWebApplication\obj\Debug\LaFlorQueHablaWebApplication.csproj.CopyComplete
+C:\Users\Owner\Desktop\Workspace2022\NewLaFlorQueHablaWebApplcation\LaFlorQueHablaWebApplication\bin\LaFlorQueHablaWebApplication.dll.config
+C:\Users\Owner\Desktop\Workspace2022\NewLaFlorQueHablaWebApplcation\LaFlorQueHablaWebApplication\bin\LaFlorQueHablaWebApplication.dll
+C:\Users\Owner\Desktop\Workspace2022\NewLaFlorQueHablaWebApplcation\LaFlorQueHablaWebApplication\bin\LaFlorQueHablaWebApplication.pdb
+C:\Users\Owner\Desktop\Workspace2022\NewLaFlorQueHablaWebApplcation\LaFlorQueHablaWebApplication\bin\Newtonsoft.Json.dll
+C:\Users\Owner\Desktop\Workspace2022\NewLaFlorQueHablaWebApplcation\LaFlorQueHablaWebApplication\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Owner\Desktop\Workspace2022\NewLaFlorQueHablaWebApplcation\LaFlorQueHablaWebApplication\obj\Debug\LaFlorQueHablaWebApplication.csproj.AssemblyReference.cache
+C:\Users\Owner\Desktop\Workspace2022\NewLaFlorQueHablaWebApplcation\LaFlorQueHablaWebApplication\obj\Debug\LaFlorQueHablaWebApplication.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\Workspace2022\NewLaFlorQueHablaWebApplcation\LaFlorQueHablaWebApplication\obj\Debug\LaFlorQueHablaWebApplication.csproj.CopyComplete
+C:\Users\Owner\Desktop\Workspace2022\NewLaFlorQueHablaWebApplcation\LaFlorQueHablaWebApplication\obj\Debug\LaFlorQueHablaWebApplication.dll
+C:\Users\Owner\Desktop\Workspace2022\NewLaFlorQueHablaWebApplcation\LaFlorQueHablaWebApplication\obj\Debug\LaFlorQueHablaWebApplication.pdb

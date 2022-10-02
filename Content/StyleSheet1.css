@@ -1,0 +1,78 @@
+﻿
+     #form1 {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 1080px;
+            background-color: #cbe7fc;
+            width: 1920px;
+            margin-left: 0px;
+            margin-right: 527px;
+
+        }
+
+        .HomePagePhraseTextBoxStyle {
+            font-family: Forte;
+        }
+
+     
+        .Petal1ImageStyle {
+            position: absolute;
+            z-index: 2;
+            left: 400px;
+            top: 375px;
+            
+        }
+
+        .Petal2ImageStyle {
+            position: absolute;
+            z-index: 2;
+            left: 475px;
+            top: 400px;
+            
+                          }
+
+        .Petal3ImageStyle {
+            position: absolute;
+            z-index: 2;
+            left: 550px;
+            top: 425px;
+            
+                          }
+
+        
+        .Petal4ImageStyle {
+            position: absolute;
+            z-index: 2;
+            left: 600px;
+            top: 400px;
+            
+                          }
+
+        
+        .Petal5ImageStyle {
+            position: absolute;
+            z-index: 2;
+            left: 510px;
+            top: 410px;
+            
+                          }
+
+        .Petal6ImageStyle {
+            position: absolute;
+            z-index: 2;
+            left: 550px;
+            top: 375px;
+            background: url(https://i.stack.imgur.com/jDCI4.png) 
+            left 3px top 5px no-repeat #563d7c;
+        }
+
+          .IconImageStyle {
+            z-index: 1;
+            left: 550px;
+            top: 150px;
+            position: absolute;
+            
+        }
+
+          
