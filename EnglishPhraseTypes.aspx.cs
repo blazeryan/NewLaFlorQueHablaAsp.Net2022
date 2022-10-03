@@ -21,7 +21,8 @@ namespace LaFlorQueHablaWebApplication
 
         protected void InspirationalPhraseImageButton_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("EnglishPhrase.aspx", true);
+            Response.Redirect("EnglishInspirationalPhrasePage.aspx", true);
+          
         }
 
         protected void TwitterImageButton_Click(object sender, ImageClickEventArgs e)

@@ -165,6 +165,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="daisy logo nuevo.png" />
     <Content Include="EnglishHomePage.aspx" />
+    <Content Include="EnglishInspirationalPhrasePage.aspx" />
     <Content Include="EnglishPhraseTypes.aspx" />
     <Content Include="Flower.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -304,6 +305,13 @@
     </Compile>
     <Compile Include="EnglishHomePage.aspx.designer.cs">
       <DependentUpon>EnglishHomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EnglishInspirationalPhrasePage.aspx.cs">
+      <DependentUpon>EnglishInspirationalPhrasePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnglishInspirationalPhrasePage.aspx.designer.cs">
+      <DependentUpon>EnglishInspirationalPhrasePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="EnglishPhraseTypes.aspx.cs">
       <DependentUpon>EnglishPhraseTypes.aspx</DependentUpon>
