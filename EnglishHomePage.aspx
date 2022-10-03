@@ -20,7 +20,7 @@
         <form id="form1" runat="server">
         <h1 class="newStyle1" id="Panel1Top">
 
-            <asp:TextBox ID="HomePagePhraseTextBox" runat="server" BorderStyle="None" style="z-index: 1; text-align: center; left: -86px; top: 25px; position: absolute; width: 1955px; height: 52px; font-weight: 700; top: 23px; font-size: 30pt; font-family: Forte; color: #000000; background-color: #cbe7fc" CssClass="StaticEnglishHomePagePhraseStyle" OnTextChanged="HomePagePhraseTextBox_TextChanged">Trying to become the one who I always dreamed I could be.</asp:TextBox> 
+            <asp:TextBox ID="HomePagePhraseTextBox" runat="server" BorderStyle="None" style="z-index: 1; text-align: center; left: 3px; top: 25px; position: absolute; width: 1570px; height: 52px; font-weight: 700; top: 23px; font-size: 30pt; font-family: Forte; color: #000000; background-color: #cbe7fc" CssClass="StaticEnglishHomePagePhraseStyle" OnTextChanged="HomePagePhraseTextBox_TextChanged">Trying to become the one who I always dreamed I could be.</asp:TextBox> 
             <asp:ImageButton ID="InstagramImageButton" runat="server" ImageUrl="~/Images/LaFlorQueHablaIcon.png" style="z-index: 1; left: 75px; top: 425px; position: absolute; height: 80px; width: 80px" OnClick="InstagramImageButton_Click" />
             <asp:Label ID="FollowMeInstagramLabel" runat="server" style="z-index: 1; left: 170px; top: 435px; position: absolute; font-size: medium" Text="Instagram"></asp:Label>
             <asp:ImageButton ID="FacebookImageButton" runat="server" ImageUrl="~/Images/LaFlorQueHablaIcon.png" OnClick="FacebookImageButton_Click" style="z-index: 1; left: 75px; top: 275px; position: absolute; height: 80px; width: 80px; " />
@@ -51,9 +51,9 @@
 
    
     
-    <asp:DataList ID="DataList1" runat="server" DataSourceID="EnglishPhraseDataSource2022" Font-Size="30pt" Font-Bold="True" Font-Italic="False" Font-Names="Forte" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" HorizontalAlign="Center" top="70px" Visible="False">
+    <asp:DataList ID="DataList1" runat="server" DataSourceID="EnglishPhraseDataSource2022" Font-Size="30pt" Font-Bold="True" Font-Italic="False" Font-Names="Forte" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" HorizontalAlign="Center" top="70px" Visible="False" style="z-index: 1; left: 127px; top: 24px; position: absolute; height: 76px; width: 1336px; text-align: center">
                 <ItemTemplate>
-                    Phrase_Body: <asp:Label ID="Phrase_BodyLabel" runat="server" Text='<%# Eval("Phrase Body") %>' />
+                    &nbsp;<asp:Label ID="Phrase_BodyLabel" runat="server" Text='<%# Eval("Phrase Body") %>' />
                     <br />
 <br />
                 </ItemTemplate>
