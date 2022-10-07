@@ -6,14 +6,13 @@
 <head runat="server">
     <title></title>
 </head>
-<body>
+    <body style="font-size: x-large; height: 908px; width: 2100px; background-color: #cbe7fc;">
     <form id="form1" runat="server">
         <div>
         </div>
-        <asp:DataList ID="EnglishInspirationalDataList" runat="server" DataSourceID="EnglishInspirationalPhraseDataSource" DataKeyField="Phrase_Body">
+        <asp:DataList ID="EnglishInspirationalDataList" runat="server" DataSourceID="EnglishInspirationalPhraseDataSource" BackColor="White" DataKeyField="Phrase_Body" Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" ForeColor="Navy" style="text-align: left" Width="1894px">
             <ItemTemplate>
-                Phrase_Body:
-                <asp:Label ID="Phrase_BodyLabel" runat="server" Text='<%# Eval("Phrase_Body") %>' />
+                &nbsp;<asp:Label ID="Phrase_BodyLabel" runat="server" Text='<%# Eval("Phrase_Body") %>' />
                 <br />
 <br />
             </ItemTemplate>
