@@ -13,5 +13,25 @@ namespace LaFlorQueHablaWebApplication
         {
 
         }
+
+
+        protected void InspirationalPhraseListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            // Put Selected Item from InspirationalPhraseListBox into SelectedItemTextBox
+            //String mySelectedItem = InspirationalPhraseListBox.SelectedItem.Text;
+            //SelectedItemTextBox.Text = mySelectedItem;
+
+
+            // Send string from mySelectedItem variable to SelectedItemPage.aspx web form
+            Response.Redirect("SelectedItemPage.aspx?selectedItem=" + InspirationalPhraseListBox.SelectedItem.Text);
+
+            
+        }
+
+        protected void SelectedItemTextBox_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

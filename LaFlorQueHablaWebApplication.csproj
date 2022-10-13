@@ -178,6 +178,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
+    <Content Include="SelectedItemPage.aspx" />
     <Content Include="SpanishPhrase.aspx" />
     <Content Include="YourPhraseBox.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -354,6 +355,13 @@
       <DependentUpon>Poem.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectedItemPage.aspx.cs">
+      <DependentUpon>SelectedItemPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectedItemPage.aspx.designer.cs">
+      <DependentUpon>SelectedItemPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ShortStory.aspx.cs">
       <DependentUpon>ShortStory.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

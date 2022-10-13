@@ -11,7 +11,7 @@ namespace LaFlorQueHablaWebApplication
 {
 
 
-    public partial class EnglishInspirationalPhrasePage
+    public partial class SelectedItemPage
     {
 
         /// <summary>
@@ -24,21 +24,12 @@ namespace LaFlorQueHablaWebApplication
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// EnglishInspirationalPhraseDataSource control.
+        /// SelectedItemTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource EnglishInspirationalPhraseDataSource;
-
-        /// <summary>
-        /// InspirationalPhraseListBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox InspirationalPhraseListBox;
+        protected global::System.Web.UI.WebControls.TextBox SelectedItemTextBox;
     }
 }
