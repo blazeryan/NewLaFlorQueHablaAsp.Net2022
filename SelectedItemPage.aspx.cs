@@ -11,9 +11,14 @@ namespace LaFlorQueHablaWebApplication
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            String selectedItem; 
+            selectedItem = Request.QueryString["selectedItem"];
 
+            String selectedItemPlusSignature;
+            selectedItemPlusSignature = selectedItem + " \nLaFlorQueHabla";
+            SelectedItemTextBox.Text = selectedItemPlusSignature;
 
-            SelectedItemTextBox.Text = Request.QueryString["selectedItem"];
+           // SelectedItemTextBox.Text = Request.QueryString["selectedItem"];
         }
 
         protected void SelectedItemTextBox_TextChanged(object sender, EventArgs e)
