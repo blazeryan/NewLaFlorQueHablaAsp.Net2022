@@ -13,7 +13,23 @@
 <body style="font-size: x-large; height: 908px; width: 2100px; background-color: #cbe7fc;">
     <form id="form1" runat="server">
 
-        <h1>THIS IS A TEST THIS IS THE ENGLISH PHRASE TYPES PAGE
+        <h1>
+
+          
+
+
+
+             <asp:DataList ID="DataList1" runat="server" DataSourceID="EnglishPhraseTypesDataListDataSource">
+                 <ItemTemplate>
+                     &nbsp;<asp:Label ID="Phrase_BodyLabel" runat="server" Text='<%# Eval("Phrase_Body") %>' />
+                     <br />
+<br />
+                 </ItemTemplate>
+             </asp:DataList>
+             <asp:SqlDataSource ID="EnglishPhraseTypesDataListDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:LaFlorQueHablaDBConnectionString10-2-2022 %>" SelectCommand="SELECT [Phrase Body] AS Phrase_Body FROM [Phrase]"></asp:SqlDataSource>
+
+          
+
 
 
              <asp:ImageButton ID="InstagramImageButton" runat="server" ImageUrl="~/Images/LaFlorQueHablaIcon.png" style="z-index: 1; left: 75px; top: 425px; position: absolute; height: 80px; width: 80px" OnClick="InstagramImageButton_Click" />
