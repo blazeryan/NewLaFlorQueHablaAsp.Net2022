@@ -19,14 +19,16 @@
 
 
 
-             <asp:DataList ID="DataList1" runat="server" DataSourceID="EnglishPhraseTypesDataListDataSource">
+             <asp:DataList ID="EnglishPhraseTypesDataList" runat="server" DataSourceID="EnglishPhraseTypesDataListDataSource" Font-Size="30pt" Font-Bold="True" Font-Italic="False" Font-Names="Forte" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" HorizontalAlign="Center" top="70px" Visible="True" style="z-index: 1; left: 127px; top: 24px; position: absolute; height: 76px; width: 1336px; text-align: center">
+                 <ItemStyle HorizontalAlign="Center" />
                  <ItemTemplate>
-                     &nbsp;<asp:Label ID="Phrase_BodyLabel" runat="server" Text='<%# Eval("Phrase_Body") %>' />
+                     &nbsp;<asp:Label ID="Phrase_BodyLabel" runat="server" Text='<%# Eval("Phrase Body") %>' />
                      <br />
 <br />
                  </ItemTemplate>
              </asp:DataList>
-             <asp:SqlDataSource ID="EnglishPhraseTypesDataListDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:LaFlorQueHablaDBConnectionString10-2-2022 %>" SelectCommand="SELECT [Phrase Body] AS Phrase_Body FROM [Phrase]"></asp:SqlDataSource>
+             <asp:SqlDataSource ID="EnglishPhraseTypesDataListDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:LaFlorQueHablaDBConnectionString10-2-2022 %>" SelectCommand="SELECT TOP 1 [Phrase Body] FROM Phrase
+ORDER BY NEWID()"></asp:SqlDataSource>
 
           
 
