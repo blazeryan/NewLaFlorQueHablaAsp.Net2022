@@ -15,7 +15,7 @@
                 <asp:ControlParameter ControlID="InspirationalPhraseListBox" DefaultValue="Inspirational" Name="Phrase_Type" PropertyName="SelectedValue" Type="String" />
             </SelectParameters>
         </asp:SqlDataSource>
-        <asp:ListBox ID="InspirationalPhraseListBox" runat="server" AutoPostBack="True" BackColor="#ABD3F2" DataSourceID="EnglishInspirationalPhraseDataSource" DataTextField="Phrase_Body" DataValueField="Phrase_Body" ForeColor="Black" Height="333px" Rows="30" Width="1625px" Font-Names="Forte" OnSelectedIndexChanged="InspirationalPhraseListBox_SelectedIndexChanged" style="margin-right: 0px; z-index: 1; left: 10px; top: 16px; position: absolute;" Font-Bold="True" Font-Size="XX-Large"></asp:ListBox>
+        <asp:ListBox ID="InspirationalPhraseListBox" runat="server" AutoPostBack="True" BackColor="#ABD3F2" DataSourceID="EnglishInspirationalPhraseDataSource" DataTextField="Phrase_Body" DataValueField="Phrase_Body" ForeColor="Black" Rows="30" Width="1625px" Font-Names="Forte" OnSelectedIndexChanged="InspirationalPhraseListBox_SelectedIndexChanged" style="margin-right: 0px; z-index: 1; left: 1px; top: 0px; position: absolute; height: 759px;" Font-Bold="True" Font-Size="XX-Large"></asp:ListBox>
     </form>
 </body>
 </html>
