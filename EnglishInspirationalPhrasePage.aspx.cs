@@ -14,7 +14,7 @@ namespace LaFlorQueHablaWebApplication
 
         }
 
-
+        
         protected void InspirationalPhraseListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
 
