@@ -180,6 +180,7 @@
     <Content Include="Account\Web.config" />
     <Content Include="SelectedItemPage.aspx" />
     <Content Include="SpanishPhrase.aspx" />
+    <Content Include="StyleSheet2.css" />
     <Content Include="YourPhraseBox.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="EnglishPhrase.aspx" />

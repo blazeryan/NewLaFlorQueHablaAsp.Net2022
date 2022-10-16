@@ -15,10 +15,17 @@ namespace LaFlorQueHablaWebApplication
             selectedItem = Request.QueryString["selectedItem"];
 
             String selectedItemPlusSignature;
-            selectedItemPlusSignature = selectedItem + " \nLaFlorQueHabla";
+            selectedItemPlusSignature = selectedItem + " \n\nLaFlorQueHabla";
             SelectedItemTextBox.Text = selectedItemPlusSignature;
 
-           // SelectedItemTextBox.Text = Request.QueryString["selectedItem"];
+            // SelectedItemTextBox.Text = Request.QueryString["selectedItem"];
+
+            // Align text in textbox
+            SelectedItemTextBox.Style["text-align"] = "center";
+
+            // Align text vertically in textbox
+        
+           
         }
 
         protected void SelectedItemTextBox_TextChanged(object sender, EventArgs e)
