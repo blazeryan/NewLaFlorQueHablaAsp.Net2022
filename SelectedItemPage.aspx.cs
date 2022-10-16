@@ -32,5 +32,15 @@ namespace LaFlorQueHablaWebApplication
         {
            
         }
+
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+            SelectedItemTextBox.Text = UserTextTextBox.Text;
+        }
+
+        protected void UserTextTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -181,6 +181,8 @@
     <Content Include="SelectedItemPage.aspx" />
     <Content Include="SpanishPhrase.aspx" />
     <Content Include="StyleSheet2.css" />
+    <Content Include="Uploaded_Images\DSC_0051.JPG" />
+    <Content Include="Uploaded_Images\DSC_0464.JPG" />
     <Content Include="YourPhraseBox.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="EnglishPhrase.aspx" />
