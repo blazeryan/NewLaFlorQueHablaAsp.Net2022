@@ -27,7 +27,7 @@ namespace LaFlorQueHablaWebApplication
 
         protected void TwitterImageButton_Click(object sender, ImageClickEventArgs e)
         {
-
+            Response.Redirect("https://twitter.com/laflorquehabla?lang=en");
         }
 
         protected void AboutMeImageButton_Click(object sender, ImageClickEventArgs e)
@@ -62,17 +62,24 @@ namespace LaFlorQueHablaWebApplication
 
         protected void FacebookImageButton_Click(object sender, ImageClickEventArgs e)
         {
-
+            Response.Redirect("https://www.facebook.com/laflor.quehabla");
         }
 
         protected void InstagramImageButton_Click(object sender, ImageClickEventArgs e)
         {
-           
+            Response.Redirect("https://www.instagram.com/laflorquehabla_db/");
         }
 
         protected void LovePhraseImageButton_Click(object sender, ImageClickEventArgs e)
         {
             Response.Redirect("EnglishPhrase.aspx", true);
+        }
+
+        protected void EnglishPhraseTypesDataList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+
+         
         }
     }
 }
