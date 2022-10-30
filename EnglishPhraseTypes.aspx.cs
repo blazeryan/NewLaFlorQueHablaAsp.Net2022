@@ -72,7 +72,7 @@ namespace LaFlorQueHablaWebApplication
 
         protected void LovePhraseImageButton_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("EnglishPhrase.aspx", true);
+            Response.Redirect("LovePhrasePage.aspx", true);
         }
 
         protected void EnglishPhraseTypesDataList_SelectedIndexChanged(object sender, EventArgs e)

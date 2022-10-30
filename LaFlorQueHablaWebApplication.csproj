@@ -173,6 +173,7 @@
     <Content Include="HomePage.aspx" />
     <Content Include="LaFlorQueHablaIcon.png" />
     <Content Include="ExternalJavaScript.js" />
+    <Content Include="LovePhrasePage.aspx" />
     <Content Include="Meme.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -341,6 +342,13 @@
     </Compile>
     <Compile Include="HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LovePhrasePage.aspx.cs">
+      <DependentUpon>LovePhrasePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LovePhrasePage.aspx.designer.cs">
+      <DependentUpon>LovePhrasePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Meme.aspx.cs">
       <DependentUpon>Meme.aspx</DependentUpon>
