@@ -19,7 +19,7 @@
 
 
 
-             <asp:DataList ID="EnglishPhraseTypesDataList" runat="server" DataSourceID="EnglishPhraseTypesDataListDataSource" Font-Size="30pt" Font-Bold="True" Font-Italic="False" Font-Names="Forte" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" HorizontalAlign="Center" top="70px" Visible="True" style="z-index: 1; left: 127px; top: 24px; position: absolute; height: 76px; width: 1336px; text-align: center">
+             <asp:DataList ID="EnglishPhraseTypesDataList" runat="server" DataSourceID="EnglishPhraseTypesDataListDataSource" Font-Size="30pt" Font-Bold="True" Font-Italic="False" Font-Names="Forte" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" HorizontalAlign="Center" top="70px" Visible="True" style="z-index: 1; left: 127px; top: 24px; position: absolute; height: 76px; width: 1336px; text-align: center" OnSelectedIndexChanged="EnglishPhraseTypesDataList_SelectedIndexChanged1">
                  <ItemStyle HorizontalAlign="Center" />
                  <ItemTemplate>
                      &nbsp;<asp:Label ID="Phrase_BodyLabel" runat="server" Text='<%# Eval("Phrase Body") %>' />
@@ -42,7 +42,7 @@ ORDER BY NEWID()"></asp:SqlDataSource>
             <asp:Label ID="FollowMeTwitterLabel" runat="server" style="z-index: 1; left: 170px; top: 360px; position: absolute; font-size: medium" Text="Twitter"></asp:Label>
             
             <asp:Image ID="LaFlorQueHablaIconImage" runat="server" ImageUrl="~/Images/DaisyLogo.png" CssClass="IconImageStyle" OnClick="ChangePhraseImageButton_Click" /> 
-            <asp:ImageButton ID="InspriationalPhraseImageButton" runat="server" ImageUrl="~/Images/Flower.png" style="z-index: 1; left: 1200px; top: 275px; position: absolute; height: 50px; width: 50px" OnClick="InspirationalPhraseImageButton_Click" />
+            <asp:ImageButton ID="InspriationalPhraseImageButton" runat="server" ImageUrl="~/Images/Flower.png" style="z-index: 1; left: 1200px; top: 275px; position: absolute; height: 50px; width: 50px; bottom: 755px;" OnClick="InspirationalPhraseImageButton_Click" />
             <asp:Label ID="InspirationalPhraseLabel" runat="server" style="z-index: 1; left: 1275px; top: 274px; position: absolute; font-size: medium" Text="Inspirational"></asp:Label>
             <asp:ImageButton ID="FunnyPhraseImageButton" runat="server" ImageUrl="~/Images/Flower.png" OnClick="FunnyPhrasImageButton_Click" style="z-index: 1; left: 1200px; top: 350px; position: absolute; height: 50px; width: 50px; " />
             <asp:Label ID="FunnyPhraseImageLabel" runat="server" style="z-index: 1; left: 1275px; top: 350px; position: absolute; height: 45px; font-size: medium; bottom: 685px;" Text="Funny"></asp:Label>

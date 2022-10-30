@@ -169,6 +169,7 @@
     <Content Include="EnglishPhraseTypes.aspx" />
     <Content Include="Flower.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FunnyPhrasePage.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="LaFlorQueHablaIcon.png" />
     <Content Include="ExternalJavaScript.js" />
@@ -323,6 +324,13 @@
     </Compile>
     <Compile Include="EnglishPhraseTypes.aspx.designer.cs">
       <DependentUpon>EnglishPhraseTypes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FunnyPhrasePage.aspx.cs">
+      <DependentUpon>FunnyPhrasePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FunnyPhrasePage.aspx.designer.cs">
+      <DependentUpon>FunnyPhrasePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

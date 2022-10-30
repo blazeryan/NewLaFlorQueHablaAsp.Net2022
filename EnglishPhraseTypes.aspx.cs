@@ -16,7 +16,7 @@ namespace LaFlorQueHablaWebApplication
 
         protected void FunnyPhrasImageButton_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("EnglishPhrase.aspx", true);
+            Response.Redirect("FunnyPhrasePage.aspx", true);
         }
 
         protected void InspirationalPhraseImageButton_Click(object sender, ImageClickEventArgs e)
@@ -80,6 +80,11 @@ namespace LaFlorQueHablaWebApplication
 
 
          
+        }
+
+        protected void EnglishPhraseTypesDataList_SelectedIndexChanged1(object sender, EventArgs e)
+        {
+
         }
     }
 }
