@@ -55,9 +55,9 @@ namespace LaFlorQueHablaWebApplication
            
         }
 
-        protected void CondolencesPhraseImageButton_Click(object sender, ImageClickEventArgs e)
+        protected void ComfortPhraseImageButton_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("EnglishPhrase.aspx", true);
+            Response.Redirect("ComfortPhrasePage.aspx", true);
         }
 
         protected void FacebookImageButton_Click(object sender, ImageClickEventArgs e)
@@ -75,11 +75,9 @@ namespace LaFlorQueHablaWebApplication
             Response.Redirect("LovePhrasePage.aspx", true);
         }
 
-        protected void EnglishPhraseTypesDataList_SelectedIndexChanged(object sender, EventArgs e)
+        protected void CondolencesPhraseImageButton_Click(object sender, ImageClickEventArgs e)
         {
 
-
-         
         }
 
         protected void EnglishPhraseTypesDataList_SelectedIndexChanged1(object sender, EventArgs e)

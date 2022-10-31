@@ -19,7 +19,7 @@
 
 
 
-             <asp:DataList ID="EnglishPhraseTypesDataList" runat="server" DataSourceID="EnglishPhraseTypesDataListDataSource" Font-Size="30pt" Font-Bold="True" Font-Italic="False" Font-Names="Forte" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" HorizontalAlign="Center" top="70px" Visible="True" style="z-index: 1; left: 127px; top: 24px; position: absolute; height: 76px; width: 1336px; text-align: center" OnSelectedIndexChanged="EnglishPhraseTypesDataList_SelectedIndexChanged1">
+             <asp:DataList ID="EnglishPhraseTypesDataList" runat="server" DataSourceID="EnglishPhraseTypesDataListDataSource" Font-Size="30pt" Font-Bold="True" Font-Italic="False" Font-Names="Forte" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" HorizontalAlign="Center" top="70px" Visible="True" style="z-index: 2; left: 127px; top: 24px; position: absolute; height: 76px; width: 1336px; text-align: center" OnSelectedIndexChanged="EnglishPhraseTypesDataList_SelectedIndexChanged1">
                  <ItemStyle HorizontalAlign="Center" />
                  <ItemTemplate>
                      &nbsp;<asp:Label ID="Phrase_BodyLabel" runat="server" Text='<%# Eval("Phrase Body") %>' />
@@ -48,8 +48,8 @@ ORDER BY NEWID()"></asp:SqlDataSource>
             <asp:Label ID="FunnyPhraseImageLabel" runat="server" style="z-index: 1; left: 1275px; top: 350px; position: absolute; height: 45px; font-size: medium; bottom: 685px;" Text="Funny"></asp:Label>
             <asp:ImageButton ID="LovePhraseImageButton" runat="server" ImageUrl="~/Images/Flower.png" style="z-index: 1; left: 1200px; top: 425px; position: absolute; height: 50px; width: 50px;" OnClick="LovePhraseImageButton_Click" />
             <asp:Label ID="LovePhraseLabel" runat="server" style="z-index: 1; left: 1275px; top: 423px; position: absolute; font-size: medium" Text="Love"></asp:Label>
-            <asp:ImageButton ID="CondolencesPhraseImageButton" runat="server" ImageUrl="~/Images/Flower.png" style="z-index: 1; left: 1200px; top: 500px; position: absolute; height: 50px; width: 50px;" OnClick="CondolencesPhraseImageButton_Click" />
-            <asp:Label ID="CondolencesPhraseImageLabel" runat="server" style="z-index: 1; left: 1275px; top: 496px; position: absolute; font-size: medium" Text="Condolences"></asp:Label>
+            <asp:ImageButton ID="ComfortPhraseImageButton" runat="server" ImageUrl="~/Images/Flower.png" style="z-index: 1; left: 1200px; top: 500px; position: absolute; height: 50px; width: 50px;" OnClick="ComfortPhraseImageButton_Click" />
+            <asp:Label ID="ComfortPhraseImageLabel" runat="server" style="z-index: 4; left: 1275px; top: 501px; position: absolute; font-size: medium" Text="Comfort"></asp:Label>
             
             
 
