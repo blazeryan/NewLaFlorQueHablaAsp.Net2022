@@ -34,7 +34,8 @@ namespace LaFlorQueHablaWebApplication
 
         protected void PhrasesImageButton_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("Phrase.aspx", true);
+           // Response.Redirect("Phrase.aspx", true);
+            Response.Redirect("EnglishPhraseTypes.aspx", true);
         }
 
         protected void MemeImageButton_Click(object sender, ImageClickEventArgs e)
@@ -44,7 +45,7 @@ namespace LaFlorQueHablaWebApplication
 
         protected void PoemsImageButton_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("Poem.aspx", true);
+            Response.Redirect("EnglishPoemTypes.aspx", true);
         }
 
         protected void ShortStoryImageButton_Click(object sender, ImageClickEventArgs e)
@@ -73,10 +74,9 @@ namespace LaFlorQueHablaWebApplication
 
         }
 
-       
+        protected void DataList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
-       
-
-
+        }
     }
 }

@@ -27,16 +27,14 @@
             <asp:Label ID="FollowMeFacebookLabel" runat="server" style="z-index: 1; left: 170px; top: 285px; position: absolute; height: 45px; font-size: medium; bottom: 398px;" Text="Facebook"></asp:Label>
             <asp:ImageButton ID="TwitterImageButton" runat="server" ImageUrl="~/Images/LaFlorQueHablaIcon.png" style="z-index: 1; left: 75px; top: 350px; position: absolute; height: 80px" OnClick="TwitterImageButton_Click" />
             <asp:Label ID="FollowMeTwitterLabel" runat="server" style="z-index: 1; left: 170px; top: 360px; position: absolute; font-size: medium" Text="Twitter"></asp:Label>
-            <asp:ImageButton ID="AboutMeImageButton" runat="server" ImageUrl="~/Images/Flower.png" style="z-index: 1; left: 1200px; top: 575px; position: absolute; height: 55px; width: 55px; right: 654px;" OnClick="AboutMeImageButton_Click" />
-            <asp:Label ID="AboutMeLabel" runat="server" style="font-size: medium; z-index: 1; left: 1275px; top: 577px; position: absolute" Text="About Me"></asp:Label>
+            <asp:ImageButton ID="AboutMeImageButton" runat="server" ImageUrl="~/Images/Flower.png" style="z-index: 1; left: 1200px; top: 500px; position: absolute; height: 55px; width: 55px; right: 654px;" OnClick="AboutMeImageButton_Click" />
+            <asp:Label ID="AboutMeLabel" runat="server" style="font-size: medium; z-index: 1; left: 1275px; top: 502px; position: absolute" Text="About Me"></asp:Label>
             <asp:ImageButton ID="PhrasesImageButton" runat="server" ImageUrl="~/Images/Flower.png" style="z-index: 1; left: 1200px; top: 275px; position: absolute; height: 55px; width: 55px; bottom: 499px;" OnClick="PhrasesImageButton_Click" PostBackUrl="~/EnglishPhraseTypes.aspx" />
             <asp:Label ID="PhrasesLabel" runat="server" style="font-size: medium; z-index: 1; left: 1275px; top: 278px; position: absolute" Text="Phrases"></asp:Label>
-            <asp:ImageButton ID="MemesImageButton" runat="server"  ImageUrl="~/Images/Flower.png" OnClick="MemeImageButton_Click" style="z-index: 1; left: 1200px; top: 350px; position: absolute; width: 55px;"  /> 
-            <asp:Label ID="MemesLabel" runat="server" style="z-index: 1; left: 1275px; top: 352px; position: absolute; font-size: medium;" Text="Picture Quote"></asp:Label>
-            <asp:ImageButton ID="PoemsImageButton" runat="server" style="z-index: 1; left: 1200px; top: 425px; position: absolute" Height="55px" ImageUrl="~/Images/Flower.png" Width="55px" OnClick="PoemsImageButton_Click" />
-            <asp:Label ID="PoemsLabel" runat="server" style="z-index: 1; left: 1275px; top: 428px; position: absolute; font-size: medium;" Text="Poems"></asp:Label>
-            <asp:ImageButton ID="ShortStoryImageButton" runat="server" Height="55px" style="height: 55px; z-index: 1; left: 1200px; top: 500px; position: absolute" Width="55px" ImageUrl="~/Images/Flower.png" OnClick="ShortStoryImageButton_Click" />
-            <asp:Label ID="ShortStoriesLabel" runat="server" style="z-index: 1; left: 1275px; top: 500px; position: absolute; font-size: medium;" Text="Short Stories"></asp:Label>
+            <asp:ImageButton ID="PoemsImageButton" runat="server" style="z-index: 1; left: 1200px; top: 350px; position: absolute" Height="55px" ImageUrl="~/Images/Flower.png" Width="55px" OnClick="PoemsImageButton_Click" />
+            <asp:Label ID="PoemsLabel" runat="server" style="z-index: 1; left: 1275px; top: 352px; position: absolute; font-size: medium;" Text="Poems"></asp:Label>
+            <asp:ImageButton ID="ShortStoryImageButton" runat="server" Height="55px" style="height: 55px; z-index: 1; left: 1200px; top: 425px; position: absolute" Width="55px" ImageUrl="~/Images/Flower.png" OnClick="ShortStoryImageButton_Click" />
+            <asp:Label ID="ShortStoriesLabel" runat="server" style="z-index: 1; left: 1275px; top: 427px; position: absolute; font-size: medium;" Text="Short Stories"></asp:Label>
             <asp:Image ID="Petal1" runat="server" ImageUrl="~/Images/Petal1.png" CssClass="Petal1ImageStyle" />
             <asp:Image ID="Petal2" runat="server" ImageUrl="~/Images/Petal2.png" CssClass="Petal2ImageStyle" />
             <asp:Image ID="Petal3" runat="server" ImageUrl="~/Images/Petal3.png" CssClass="Petal3ImageStyle" />
@@ -51,7 +49,7 @@
 
    
     
-    <asp:DataList ID="DataList1" runat="server" DataSourceID="EnglishPhraseDataSource2022" Font-Size="30pt" Font-Bold="True" Font-Italic="False" Font-Names="Forte" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" HorizontalAlign="Center" top="70px" Visible="False" style="z-index: 1; left: 127px; top: 24px; position: absolute; height: 76px; width: 1336px; text-align: center">
+    <asp:DataList ID="DataList1" runat="server" DataSourceID="EnglishPhraseDataSource2022" Font-Size="30pt" Font-Bold="True" Font-Italic="False" Font-Names="Forte" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" HorizontalAlign="Center" top="70px" Visible="False" style="z-index: 1; left: 127px; top: 24px; position: absolute; height: 76px; width: 1336px; text-align: center" OnSelectedIndexChanged="DataList1_SelectedIndexChanged">
                 <ItemTemplate>
                     &nbsp;<asp:Label ID="Phrase_BodyLabel" runat="server" Text='<%# Eval("Phrase Body") %>' />
                     <br />

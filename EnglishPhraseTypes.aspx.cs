@@ -84,5 +84,22 @@ namespace LaFlorQueHablaWebApplication
         {
 
         }
+
+
+        protected void EnglishPhraseTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ChangePhraseImageButton_Click(object sender, ImageClickEventArgs e)
+        {
+            // Make static text box invisible
+            EnglishPhraseTextBox.Visible = false;
+            // Make Datalist1 visible
+            EnglishPhraseTypesDataList.Visible = true;
+            // Refresh or Reload DataListControl
+            EnglishPhraseTypesDataList.DataBind();
+           
+        }
     }
 }

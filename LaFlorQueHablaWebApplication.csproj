@@ -168,6 +168,7 @@
     <Content Include="EnglishHomePage.aspx" />
     <Content Include="EnglishInspirationalPhrasePage.aspx" />
     <Content Include="EnglishPhraseTypes.aspx" />
+    <Content Include="EnglishPoemTypes.aspx" />
     <Content Include="Flower.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="FunnyPhrasePage.aspx" />
@@ -333,6 +334,13 @@
     </Compile>
     <Compile Include="EnglishPhraseTypes.aspx.designer.cs">
       <DependentUpon>EnglishPhraseTypes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EnglishPoemTypes.aspx.cs">
+      <DependentUpon>EnglishPoemTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnglishPoemTypes.aspx.designer.cs">
+      <DependentUpon>EnglishPoemTypes.aspx</DependentUpon>
     </Compile>
     <Compile Include="FunnyPhrasePage.aspx.cs">
       <DependentUpon>FunnyPhrasePage.aspx</DependentUpon>

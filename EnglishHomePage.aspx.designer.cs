@@ -123,24 +123,6 @@ namespace LaFlorQueHablaWebApplication
         protected global::System.Web.UI.WebControls.Label PhrasesLabel;
 
         /// <summary>
-        /// MemesImageButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton MemesImageButton;
-
-        /// <summary>
-        /// MemesLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label MemesLabel;
-
-        /// <summary>
         /// PoemsImageButton control.
         /// </summary>
         /// <remarks>

@@ -11,7 +11,7 @@ namespace LaFlorQueHablaWebApplication
 {
 
 
-    public partial class EnglishPhraseTypes
+    public partial class EnglishPoemTypes
     {
 
         /// <summary>
@@ -24,31 +24,31 @@ namespace LaFlorQueHablaWebApplication
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// EnglishPhraseTypesDataList control.
+        /// EnglishPoemTypesDataList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList EnglishPhraseTypesDataList;
+        protected global::System.Web.UI.WebControls.DataList EnglishPoemTypesDataList;
 
         /// <summary>
-        /// EnglishPhraseTypesDataListDataSource control.
+        /// EnglishPoemTypesDataListDataSource control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource EnglishPhraseTypesDataListDataSource;
+        protected global::System.Web.UI.WebControls.SqlDataSource EnglishPoemTypesDataListDataSource;
 
         /// <summary>
-        /// EnglishPhraseTextBox control.
+        /// HomePagePhraseTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EnglishPhraseTextBox;
+        protected global::System.Web.UI.WebControls.TextBox HomePagePhraseTextBox;
 
         /// <summary>
         /// InstagramImageButton control.
@@ -105,84 +105,84 @@ namespace LaFlorQueHablaWebApplication
         protected global::System.Web.UI.WebControls.Label FollowMeTwitterLabel;
 
         /// <summary>
-        /// ChangePhraseImageButton control.
+        /// LaFlorQueHablaIconImage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ChangePhraseImageButton;
+        protected global::System.Web.UI.WebControls.Image LaFlorQueHablaIconImage;
 
         /// <summary>
-        /// InspriationalPhraseImageButton control.
+        /// InspriationalPoemImageButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton InspriationalPhraseImageButton;
+        protected global::System.Web.UI.WebControls.ImageButton InspriationalPoemImageButton;
 
         /// <summary>
-        /// InspirationalPhraseLabel control.
+        /// InspirationalPoemLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label InspirationalPhraseLabel;
+        protected global::System.Web.UI.WebControls.Label InspirationalPoemLabel;
 
         /// <summary>
-        /// FunnyPhraseImageButton control.
+        /// FunnyPoemImageButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton FunnyPhraseImageButton;
+        protected global::System.Web.UI.WebControls.ImageButton FunnyPoemImageButton;
 
         /// <summary>
-        /// FunnyPhraseImageLabel control.
+        /// FunnyPoemLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label FunnyPhraseImageLabel;
+        protected global::System.Web.UI.WebControls.Label FunnyPoemLabel;
 
         /// <summary>
-        /// LovePhraseImageButton control.
+        /// LovePoemImageButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton LovePhraseImageButton;
+        protected global::System.Web.UI.WebControls.ImageButton LovePoemImageButton;
 
         /// <summary>
-        /// LovePhraseLabel control.
+        /// LovePoemLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LovePhraseLabel;
+        protected global::System.Web.UI.WebControls.Label LovePoemLabel;
 
         /// <summary>
-        /// ComfortPhraseImageButton control.
+        /// ComfortPoemImageButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ComfortPhraseImageButton;
+        protected global::System.Web.UI.WebControls.ImageButton ComfortPoemImageButton;
 
         /// <summary>
-        /// ComfortPhraseImageLabel control.
+        /// ComfortPoemLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ComfortPhraseImageLabel;
+        protected global::System.Web.UI.WebControls.Label ComfortPoemLabel;
     }
 }
