@@ -64,5 +64,15 @@ namespace LaFlorQueHablaWebApplication
         {
 
         }
+
+        protected void ChangePhraseIconImageButton_Click(object sender, ImageClickEventArgs e)
+        {
+            // Make static text box invisible
+            HomePagePhraseTextBox.Visible = false;
+            // Make Datalist1 visible
+            EnglishPoemTypesDataList.Visible = true;
+            // Refresh or Reload DataListControl
+            EnglishPoemTypesDataList.DataBind();
+        }
     }
 }
