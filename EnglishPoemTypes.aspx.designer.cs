@@ -42,13 +42,13 @@ namespace LaFlorQueHablaWebApplication
         protected global::System.Web.UI.WebControls.SqlDataSource EnglishPoemTypesDataListDataSource;
 
         /// <summary>
-        /// HomePagePhraseTextBox control.
+        /// PhraseTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox HomePagePhraseTextBox;
+        protected global::System.Web.UI.WebControls.TextBox PhraseTextBox;
 
         /// <summary>
         /// InstagramImageButton control.

@@ -165,8 +165,13 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="daisy logo nuevo.png" />
+    <Content Include="EnglishComfortPoemPage.aspx" />
+    <Content Include="EnglishFunnyPoemPage.aspx" />
     <Content Include="EnglishHomePage.aspx" />
     <Content Include="EnglishInspirationalPhrasePage.aspx" />
+    <Content Include="EnglishInspirationalPoemPage.aspx" />
+    <Content Include="EnglishInspirationalShortStory.aspx" />
+    <Content Include="EnglishLovePoemPage.aspx" />
     <Content Include="EnglishPhraseTypes.aspx" />
     <Content Include="EnglishPoemTypes.aspx" />
     <Content Include="Flower.png" />
@@ -314,6 +319,20 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EnglishComfortPoemPage.aspx.cs">
+      <DependentUpon>EnglishComfortPoemPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnglishComfortPoemPage.aspx.designer.cs">
+      <DependentUpon>EnglishComfortPoemPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EnglishFunnyPoemPage.aspx.cs">
+      <DependentUpon>EnglishFunnyPoemPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnglishFunnyPoemPage.aspx.designer.cs">
+      <DependentUpon>EnglishFunnyPoemPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EnglishHomePage.aspx.cs">
       <DependentUpon>EnglishHomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -327,6 +346,27 @@
     </Compile>
     <Compile Include="EnglishInspirationalPhrasePage.aspx.designer.cs">
       <DependentUpon>EnglishInspirationalPhrasePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EnglishInspirationalPoemPage.aspx.cs">
+      <DependentUpon>EnglishInspirationalPoemPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnglishInspirationalPoemPage.aspx.designer.cs">
+      <DependentUpon>EnglishInspirationalPoemPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EnglishInspirationalShortStory.aspx.cs">
+      <DependentUpon>EnglishInspirationalShortStory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnglishInspirationalShortStory.aspx.designer.cs">
+      <DependentUpon>EnglishInspirationalShortStory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EnglishLovePoemPage.aspx.cs">
+      <DependentUpon>EnglishLovePoemPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnglishLovePoemPage.aspx.designer.cs">
+      <DependentUpon>EnglishLovePoemPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="EnglishPhraseTypes.aspx.cs">
       <DependentUpon>EnglishPhraseTypes.aspx</DependentUpon>

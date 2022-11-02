@@ -40,10 +40,7 @@ ORDER BY NEWID()"></asp:SqlDataSource>
             <asp:Label ID="FollowMeFacebookLabel" runat="server" style="z-index: 1; left: 170px; top: 285px; position: absolute; height: 45px; font-size: medium; bottom: 398px;" Text="Facebook"></asp:Label>
             <asp:ImageButton ID="TwitterImageButton" runat="server" ImageUrl="~/Images/LaFlorQueHablaIcon.png" style="z-index: 1; left: 75px; top: 350px; position: absolute; height: 80px" OnClick="TwitterImageButton_Click" />
             <asp:Label ID="FollowMeTwitterLabel" runat="server" style="z-index: 1; left: 170px; top: 360px; position: absolute; font-size: medium" Text="Twitter"></asp:Label>
-            
-            <%--<asp:Image ID="LaFlorQueHablaIconImage" runat="server" ImageUrl="~/Images/DaisyLogo.png" CssClass="IconImageStyle" OnClick="ChangePhraseImageButton_Click" />--%> 
-            
-            
+           
             <asp:ImageButton ID="ChangePhraseImageButton" runat="server" ImageUrl="~/Images/DaisyLogo.png" CssClass="IconImageStyle" OnClick="ChangePhraseImageButton_Click"/>
             
             <asp:ImageButton ID="InspriationalPhraseImageButton" runat="server" ImageUrl="~/Images/Flower.png" style="z-index: 1; left: 1200px; top: 275px; position: absolute; height: 50px; width: 50px; bottom: 755px;" OnClick="InspirationalPhraseImageButton_Click" />

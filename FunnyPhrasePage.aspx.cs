@@ -22,6 +22,7 @@ namespace LaFlorQueHablaWebApplication
         protected void FunnyPhrasePageListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             Response.Redirect("SelectedItemPage.aspx?selectedItem=" + FunnyPhrasePageListBox.SelectedItem.Text);
+         
         }
     }
 }

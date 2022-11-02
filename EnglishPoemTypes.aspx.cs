@@ -16,12 +16,12 @@ namespace LaFlorQueHablaWebApplication
 
         protected void FunnyPoemImageButton_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("FunnyPhrasePage.aspx", true);
+            Response.Redirect("EnglishFunnyPoemPage.aspx", true);
         }
 
         protected void InspirationalPoemImageButton_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("EnglishInspirationalPhrasePage.aspx", true);
+            Response.Redirect("EnglishInspirationalPoemPage.aspx", true);
 
         }
 
@@ -32,7 +32,7 @@ namespace LaFlorQueHablaWebApplication
 
         protected void ComfortPoemImageButton_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("ComfortPhrasePage.aspx", true);
+            Response.Redirect("EnglishComfortPoemPage.aspx", true);
         }
 
         protected void FacebookImageButton_Click(object sender, ImageClickEventArgs e)
@@ -47,7 +47,7 @@ namespace LaFlorQueHablaWebApplication
 
         protected void LovePoemImageButton_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("LovePhrasePage.aspx", true);
+            Response.Redirect("EnglishLovePoemPage.aspx", true);
         }
 
         protected void EnglishPoemTypesDataList_SelectedIndexChanged1(object sender, EventArgs e)
@@ -68,7 +68,7 @@ namespace LaFlorQueHablaWebApplication
         protected void ChangePhraseIconImageButton_Click(object sender, ImageClickEventArgs e)
         {
             // Make static text box invisible
-            HomePagePhraseTextBox.Visible = false;
+            PhraseTextBox.Visible = false;
             // Make Datalist1 visible
             EnglishPoemTypesDataList.Visible = true;
             // Refresh or Reload DataListControl

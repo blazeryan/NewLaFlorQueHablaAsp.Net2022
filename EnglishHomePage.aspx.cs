@@ -50,7 +50,7 @@ namespace LaFlorQueHablaWebApplication
 
         protected void ShortStoryImageButton_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("ShortStory.aspx", true);
+            Response.Redirect("EnglishShortStoryTypes.aspx", true);
         }
 
         protected void AboutMeImageButton_Click(object sender, ImageClickEventArgs e)
@@ -63,9 +63,9 @@ namespace LaFlorQueHablaWebApplication
             // Make static text box invisible
             HomePagePhraseTextBox.Visible = false;
             // Make Datalist1 visible
-            DataList1.Visible = true;
+            EnglishPhraseTypesDataList.Visible = true;
             // Refresh or Reload DataListControl
-            DataList1.DataBind();
+            EnglishPhraseTypesDataList.DataBind();
 
         }
 
@@ -75,6 +75,11 @@ namespace LaFlorQueHablaWebApplication
         }
 
         protected void DataList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void EnglishShortStoryTypesDataList_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

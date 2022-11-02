@@ -11,7 +11,7 @@ namespace LaFlorQueHablaWebApplication
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            String selectedItem; 
+            String selectedItem;
             selectedItem = Request.QueryString["selectedItem"];
 
             String selectedItemPlusSignature;
@@ -24,13 +24,13 @@ namespace LaFlorQueHablaWebApplication
             SelectedItemTextBox.Style["text-align"] = "center";
 
             // Align text vertically in textbox
-        
-           
+
+
         }
 
         protected void SelectedItemTextBox_TextChanged(object sender, EventArgs e)
         {
-           
+
         }
 
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)

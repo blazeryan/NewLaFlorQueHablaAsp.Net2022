@@ -19,8 +19,8 @@ namespace LaFlorQueHablaWebApplication
         {
 
             // Put Selected Item from InspirationalPhraseListBox into SelectedItemTextBox
-            //String mySelectedItem = InspirationalPhraseListBox.SelectedItem.Text;
-            //SelectedItemTextBox.Text = mySelectedItem;
+            // String mySelectedItem = InspirationalPhraseListBox.SelectedItem.Text;
+           // SelectedItemTextBox.Text = mySelectedItem;
 
 
             // Send string from mySelectedItem variable to SelectedItemPage.aspx web form
