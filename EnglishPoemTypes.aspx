@@ -22,12 +22,12 @@
             <asp:DataList ID="EnglishPoemTypesDataList" runat="server" DataSourceID="EnglishPoemTypesDataListDataSource" Font-Size="30pt" Font-Bold="True" Font-Italic="False" Font-Names="Forte" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" HorizontalAlign="Center" top="70px" Style="z-index: 2; left: 127px; top: 24px; position: absolute; height: 76px; width: 1336px; text-align: center" OnSelectedIndexChanged="EnglishPoemTypesDataList_SelectedIndexChanged1" Visible="False">
                 <ItemStyle HorizontalAlign="Center" />
                 <ItemTemplate>
-                    &nbsp;<asp:Label ID="Poem_BodyLabel" runat="server" Text='<%# Eval("Poem_Body") %>' />
+                    &nbsp;<asp:Label ID="Poem_BodyLabel" runat="server" Text='<%# Eval("Poem Body") %>' />
                     <br />
                     <br />
                 </ItemTemplate>
             </asp:DataList>
-            <asp:SqlDataSource ID="EnglishPoemTypesDataListDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:LaFlorQueHablaDBConnectionString10-2-2022 %>" SelectCommand="SELECT [Poem Body] AS Poem_Body FROM [Poem]"></asp:SqlDataSource>
+            <asp:SqlDataSource ID="EnglishPoemTypesDataListDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:LaFlorQueHablaDBConnectionString10-2-2022 %>" SelectCommand="SELECT TOP 1 [Poem Body] FROM Poem ORDER BY NEWID()"></asp:SqlDataSource>
 
 
             <asp:TextBox ID="PhraseTextBox" runat="server" BorderStyle="None" Style="z-index: 1; text-align: center; left: 3px; top: 25px; position: absolute; width: 1570px; height: 52px; font-weight: 700; top: 23px; font-size: 30pt; font-family: Forte; color: #000000; background-color: #cbe7fc" CssClass="StaticEnglishHomePagePhraseStyle" OnTextChanged="HomePagePhraseTextBox_TextChanged">Trying to become the one who I always dreamed I could be.</asp:TextBox>
