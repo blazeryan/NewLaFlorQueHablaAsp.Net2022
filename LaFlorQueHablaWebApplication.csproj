@@ -189,6 +189,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
     <Content Include="SelectedItemPage.aspx" />
+    <Content Include="SelectedShortStoryPage.aspx" />
     <Content Include="SpanishPhrase.aspx" />
     <Content Include="StyleSheet2.css" />
     <Content Include="Uploaded_Images\DSC_0051.JPG" />
@@ -444,6 +445,13 @@
     </Compile>
     <Compile Include="SelectedItemPage.aspx.designer.cs">
       <DependentUpon>SelectedItemPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectedShortStoryPage.aspx.cs">
+      <DependentUpon>SelectedShortStoryPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectedShortStoryPage.aspx.designer.cs">
+      <DependentUpon>SelectedShortStoryPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ShortStory.aspx.cs">
       <DependentUpon>ShortStory.aspx</DependentUpon>

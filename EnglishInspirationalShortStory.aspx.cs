@@ -37,23 +37,20 @@ namespace LaFlorQueHablaWebApplication
             // Test Print selectedShortStoryID value. Prints selected short story ID that was returned from query in CreateCommand() method.
             System.Diagnostics.Debug.WriteLine("This is the Selected Short Story ID " + selectedShortStoryID);
 
-        }
+            // TEST: Place selectedShortStoryID value into test text box
+            TestTextBox.Text = selectedShortStoryID;
 
 
-
-
-
-        protected void SelectedItemTextBox_TextChanged(object sender, EventArgs e)
-        {
+            // Query String to Send string from SelectedShortStoryID variable to SelectedShortStoryPage.aspx web form
+           Response.Redirect("SelectedShortStoryPage.aspx?selectedShortStoryID=" + selectedShortStoryID);
 
         }
+
+
 
 
    
-        protected void TestTextBox_TextChanged(object sender, EventArgs e)
-        {
-             
-        }
+       
 
 
 
@@ -93,11 +90,10 @@ namespace LaFlorQueHablaWebApplication
             return selectedIDQueryResult;
         }
 
+        protected void TestTextBox_TextChanged1(object sender, EventArgs e)
+        {
 
-
-
-
-
+        }
     }
 
 

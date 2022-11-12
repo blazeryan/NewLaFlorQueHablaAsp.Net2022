@@ -23,8 +23,10 @@ namespace LaFlorQueHablaWebApplication
            // SelectedItemTextBox.Text = mySelectedItem;
 
 
-            // Send string from mySelectedItem variable to SelectedItemPage.aspx web form
+            // Query String to Send string from mySelectedItem variable to SelectedItemPage.aspx web form
             Response.Redirect("SelectedItemPage.aspx?selectedItem=" + InspirationalPhraseListBox.SelectedItem.Text);
+
+            
 
             
         }
