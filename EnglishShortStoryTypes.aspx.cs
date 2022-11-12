@@ -21,7 +21,7 @@ namespace LaFlorQueHablaWebApplication
 
         protected void InspirationalShortStoryImageButton_Click(object sender, ImageClickEventArgs e)
         {
-
+            Response.Redirect("EnglishInspirationalShortStory.aspx", true);
         }
 
         protected void FunnyShortStoryImageButton_Click(object sender, ImageClickEventArgs e)
