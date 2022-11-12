@@ -23,9 +23,12 @@ namespace LaFlorQueHablaWebApplication
 
             // Test Print to Output Window
             System.Diagnostics.Debug.WriteLine(InspirationalShortStoryListBox.Text);
-            
+
             // Call Method to Create connection 
-            CreateCommand("Select [Short Story ID] From [Short Story] Where [Short Story Name] = '" + InspirationalShortStoryListBox.Text + "';", "Data Source=DESKTOP-D98SK4H;Initial Catalog=LaFlorQueHablaDB;Integrated Security=True");
+            // CreateCommand("Select [Short Story ID] From [Short Story] Where [Short Story Name] = '" + InspirationalShortStoryListBox.Text + "';", "Data Source=DESKTOP-D98SK4H;Initial Catalog=LaFlorQueHablaDB;Integrated Security=True");
+
+            // Call Method to Create connection "This is a cleaner way of writing the above code without using concatonation. This uses interpolation.
+            CreateCommand($"Select [Short Story ID] From [Short Story] Where [Short Story Name] = '{InspirationalShortStoryListBox.Text}';", "Data Source=DESKTOP-D98SK4H;Initial Catalog=LaFlorQueHablaDB;Integrated Security=True");
         }
    
 
