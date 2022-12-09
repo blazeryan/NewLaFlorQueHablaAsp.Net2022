@@ -15,20 +15,27 @@ namespace LaFlorQueHablaWebApplication
         {
 
 
-            String selectedShortStory;
-            selectedShortStory = Request.QueryString["selectedShortStoryID"];
+            String selectedShortStoryID;
+            String selectedShortStoryBody = "";
 
-            String selectedShortStoryPlusSignature;
-            selectedShortStoryPlusSignature = selectedShortStory + " \n\nLaFlorQueHabla";
-            SelectedShortStoryTextBox.Text = selectedShortStoryPlusSignature;
 
-            // SelectedItemTextBox.Text = Request.QueryString["selectedItem"];
+            selectedShortStoryID = Request.QueryString["selectedShortStoryID"];
+
+    
 
             // Align text in textbox
             SelectedShortStoryTextBox.Style["text-align"] = "center";
 
-            
 
+
+            // Call CreateCommand() Method to Create connection "This is a cleaner way of writing the above code without using concatonation. This uses string interpolation. Then this statement places query result being returned from the CreateCommand() method into the selectedShortStoryID variable.
+            selectedShortStoryBody = CreateCommand($"Select [Short Story Body] From [Short Story] Where [Short Story ID] = '{selectedShortStoryID}'", "Data Source=DESKTOP-D98SK4H;Initial Catalog=LaFlorQueHablaDB;Integrated Security=True") + " \n\nLaFlorQueHabla";
+
+
+
+
+
+            SelectedShortStoryTextBox.Text = selectedShortStoryBody;
 
         }
 
@@ -74,11 +81,11 @@ namespace LaFlorQueHablaWebApplication
         {
 
         }
-    }
+    
 
     protected void SelectedShortStoryTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void UserTextTextBox_TextChanged(object sender, EventArgs e)
