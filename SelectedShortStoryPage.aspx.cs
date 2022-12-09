@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -25,10 +27,56 @@ namespace LaFlorQueHablaWebApplication
             // Align text in textbox
             SelectedShortStoryTextBox.Style["text-align"] = "center";
 
+            
+
 
         }
 
-        protected void SelectedShortStoryTextBox_TextChanged(object sender, EventArgs e)
+
+
+
+        // Method to Create Connection to Database
+        private static string CreateCommand(string query,
+    string connectionString)
+
+        {
+            string selectedIDQueryResult = "";
+
+
+            using (SqlConnection connection = new SqlConnection(
+                       connectionString))
+            {
+
+                connection.Open();
+
+                SqlCommand command = new SqlCommand(query, connection);
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        // Test Print Query Result
+                        // System.Diagnostics.Debug.WriteLine(String.Format("{0}", reader[0]));
+
+                        // Place query result into selectedIDQueryResult variable
+                        selectedIDQueryResult = String.Format("{0}", reader[0]);
+
+                    }
+
+
+                }
+            }
+
+            // Return variable that holds query result
+            return selectedIDQueryResult;
+        }
+
+        protected void TestTextBox_TextChanged1(object sender, EventArgs e)
+        {
+
+        }
+    }
+
+    protected void SelectedShortStoryTextBox_TextChanged(object sender, EventArgs e)
         {
 
         }
